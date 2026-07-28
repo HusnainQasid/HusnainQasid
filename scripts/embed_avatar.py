@@ -76,6 +76,9 @@ def crop_to_content(img: Image.Image, margin_pct: float = 0.06) -> Image.Image:
         return img
     x0, y0, x1, y1 = bbox
     w, h = x1 - x0, y1 - y0
+    if y1 >= img.height - 10:
+        y1 = int(y0 + h * 0.50)
+        h = y1 - y0
     mx, my = int(w * margin_pct), int(h * margin_pct)
     x0, y0 = max(0, x0 - mx), max(0, y0 - my)
     x1, y1 = min(img.width, x1 + mx), min(img.height, y1 + my)

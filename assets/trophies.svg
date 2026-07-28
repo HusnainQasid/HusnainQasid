@@ -55,8 +55,8 @@
     <rect x="53.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 36.9 137.5 L 83.1 137.5 L 76.8 148.0 L 43.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="60.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">S+</text>
-<text x="60.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Stars</text>
+<text x="60.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">B</text>
+<text x="60.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">0 Stars</text>
 <g transform="rotate(20 60.0 135.0)">
 <rect x="-132.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="-132.0" to="252.0" begin="1.20s" dur="3.2s" repeatCount="indefinite"/>
@@ -87,8 +87,8 @@
     <rect x="169.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 152.9 137.5 L 199.1 137.5 L 192.8 148.0 L 159.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="176.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">SSS</text>
-<text x="176.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Commits</text>
+<text x="176.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">A</text>
+<text x="176.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">154 Commits</text>
 <g transform="rotate(20 176.0 135.0)">
 <rect x="-16.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="-16.0" to="368.0" begin="1.50s" dur="3.2s" repeatCount="indefinite"/>
@@ -119,8 +119,8 @@
     <rect x="285.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 268.9 137.5 L 315.1 137.5 L 308.8 148.0 L 275.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="292.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">A+</text>
-<text x="292.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Followers</text>
+<text x="292.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">A</text>
+<text x="292.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">1 Follower</text>
 <g transform="rotate(20 292.0 135.0)">
 <rect x="100.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="100.0" to="484.0" begin="1.80s" dur="3.2s" repeatCount="indefinite"/>
@@ -151,8 +151,8 @@
     <rect x="401.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 384.9 137.5 L 431.1 137.5 L 424.8 148.0 L 391.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="408.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">S</text>
-<text x="408.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Pull Requests</text>
+<text x="408.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">A</text>
+<text x="408.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">8 PRs</text>
 <g transform="rotate(20 408.0 135.0)">
 <rect x="216.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="216.0" to="600.0" begin="2.10s" dur="3.2s" repeatCount="indefinite"/>
@@ -183,8 +183,8 @@
     <rect x="517.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 500.9 137.5 L 547.1 137.5 L 540.8 148.0 L 507.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="524.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">A</text>
-<text x="524.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Issues</text>
+<text x="524.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">B</text>
+<text x="524.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">2 Issues</text>
 <g transform="rotate(20 524.0 135.0)">
 <rect x="332.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="332.0" to="716.0" begin="2.40s" dur="3.2s" repeatCount="indefinite"/>
@@ -215,8 +215,8 @@
     <rect x="633.7" y="122.8" width="12.600000000000001" height="14.700000000000001" fill="url(#tCup)"/>
     <path d="M 616.9 137.5 L 663.1 137.5 L 656.8 148.0 L 623.2 148.0 Z" fill="url(#tCup)"/>
     </g>
-<text x="640.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">B+</text>
-<text x="640.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">Repositories</text>
+<text x="640.0" y="168" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f4ecff" text-anchor="middle">S</text>
+<text x="640.0" y="188" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#7a5fa0" text-anchor="middle" letter-spacing="0.5">21 Repos</text>
 <g transform="rotate(20 640.0 135.0)">
 <rect x="448.0" y="0" width="46" height="310" fill="url(#tShine)">
 <animate attributeName="x" from="448.0" to="832.0" begin="2.70s" dur="3.2s" repeatCount="indefinite"/>
