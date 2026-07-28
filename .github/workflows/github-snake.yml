@@ -1,0 +1,44 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    # Runs once a day at 00:00 UTC. GitHub may delay scheduled runs slightly
+    # under load -- that's normal and harmless here.
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate custom pink/purple snake animation
+        uses: Platane/snk/svg-only@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # One output per line. color_dots goes from "0 contributions" to
+          # "highest contributions" (exactly 5 colors), color_snake is the
+          # snake body -- tuned to match the profile's pink/purple palette.
+          outputs: |
+            dist/github-snake.svg?color_snake=#ff2ecb&color_dots=#150a2c,#4c2a86,#8b2fd6,#c81fb0,#ff2ecb
+            dist/github-snake-dark.svg?color_snake=#ff8fe0&color_dots=#0a0617,#3d1f70,#8b2fd6,#d6249f,#ff2ecb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to the "output" branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "chore: update snake animation [skip ci]"

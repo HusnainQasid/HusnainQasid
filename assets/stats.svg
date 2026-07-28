@@ -1,0 +1,66 @@
+<svg width="480" height="230" viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+  <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#120826"/><stop offset="100%" stop-color="#1d0f3a"/>
+  </linearGradient>
+  <linearGradient id="sRing" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff2ecb"/><stop offset="100%" stop-color="#8b2fd6"/>
+  </linearGradient>
+  <radialGradient id="sGlow" cx="18%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#8b2fd6" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#8b2fd6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="sSoft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="sClip"><rect x="0" y="0" width="480" height="230" rx="18"/></clipPath>
+
+</defs>
+<g clip-path="url(#sClip)">
+<rect x="0" y="0" width="480" height="230" fill="url(#sBg)"/>
+<rect x="0" y="0" width="480" height="230" fill="url(#sGlow)"/>
+<text x="20" y="30" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#7a5fa0">GITHUB STATS</text>
+<circle cx="96" cy="132" r="60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12"/>
+<circle cx="96" cy="132" r="60" fill="none" stroke="url(#sRing)" stroke-width="12" stroke-linecap="round" stroke-dasharray="377.0" stroke-dashoffset="377.0" transform="rotate(-90 96 132)" filter="url(#sSoft)">
+<animate attributeName="stroke-dashoffset" from="377.0" to="49.0" begin="0.4s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+</circle>
+<text x="96" y="140" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#f4ecff" text-anchor="middle" opacity="0">A+
+<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze"/></text>
+<text x="96" y="160" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#7a5fa0" text-anchor="middle" letter-spacing="1.5" opacity="0">PROFILE RANK
+<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze"/></text>
+<g>
+<animateTransform attributeName="transform" type="translate" from="30,0" to="0,0" begin="0.30s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.55s" fill="freeze"/>
+<circle cx="196" cy="56" r="4" fill="#ff2ecb"/>
+<text x="210" y="60" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#b79ad1">Total Stars</text>
+<text x="460" y="60" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16" font-weight="700" fill="#f4ecff" text-anchor="end">0</text>
+<line x1="196" y1="70" x2="460" y2="70" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</g>
+<g>
+<animateTransform attributeName="transform" type="translate" from="30,0" to="0,0" begin="0.46s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="opacity" from="0" to="1" begin="0.46s" dur="0.55s" fill="freeze"/>
+<circle cx="196" cy="98" r="4" fill="#8b2fd6"/>
+<text x="210" y="102" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#b79ad1">Total Repos</text>
+<text x="460" y="102" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16" font-weight="700" fill="#f4ecff" text-anchor="end">21</text>
+<line x1="196" y1="112" x2="460" y2="112" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</g>
+<g>
+<animateTransform attributeName="transform" type="translate" from="30,0" to="0,0" begin="0.62s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="opacity" from="0" to="1" begin="0.62s" dur="0.55s" fill="freeze"/>
+<circle cx="196" cy="140" r="4" fill="#3ce6c8"/>
+<text x="210" y="144" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#b79ad1">Followers</text>
+<text x="460" y="144" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16" font-weight="700" fill="#f4ecff" text-anchor="end">1</text>
+<line x1="196" y1="154" x2="460" y2="154" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</g>
+<g>
+<animateTransform attributeName="transform" type="translate" from="30,0" to="0,0" begin="0.78s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.55s" fill="freeze"/>
+<circle cx="196" cy="182" r="4" fill="#ff2ecb"/>
+<text x="210" y="186" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#b79ad1">Contributions</text>
+<text x="460" y="186" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16" font-weight="700" fill="#f4ecff" text-anchor="end">154</text>
+<line x1="196" y1="196" x2="460" y2="196" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</g>
+</g>
+<rect x="1" y="1" width="478" height="228" rx="18" fill="none" stroke="rgba(255,140,235,0.28)" stroke-width="1.2"/>
+</svg>

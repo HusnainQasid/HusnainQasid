@@ -1,0 +1,76 @@
+<svg width="480" height="250" viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+  <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#120826"/><stop offset="100%" stop-color="#1d0f3a"/>
+  </linearGradient>
+  <radialGradient id="lGlow" cx="85%" cy="15%" r="70%">
+    <stop offset="0%" stop-color="#ff2ecb" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#ff2ecb" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="lClip"><rect x="0" y="0" width="480" height="250" rx="18"/></clipPath>
+
+</defs>
+<g clip-path="url(#lClip)">
+<rect x="0" y="0" width="480" height="250" fill="url(#lBg)"/>
+<rect x="0" y="0" width="480" height="250" fill="url(#lGlow)"/>
+<text x="20" y="30" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#7a5fa0">MOST USED LANGUAGES</text>
+<rect x="20" y="48" width="440" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+<rect x="20.0" y="48" width="0" height="14" fill="#c86bff">
+<animate attributeName="width" from="0" to="167.2" begin="0.20s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="187.2" y="48" width="0" height="14" fill="#3ce6c8">
+<animate attributeName="width" from="0" to="123.2" begin="0.28s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="310.4" y="48" width="0" height="14" fill="#8b2fd6">
+<animate attributeName="width" from="0" to="61.6" begin="0.36s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="372.0" y="48" width="0" height="14" fill="#6d28d9">
+<animate attributeName="width" from="0" to="44.0" begin="0.44s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="416.0" y="48" width="0" height="14" fill="#ff8fe0">
+<animate attributeName="width" from="0" to="26.4" begin="0.52s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="442.4" y="48" width="0" height="14" fill="#ff2ecb">
+<animate attributeName="width" from="0" to="17.6" begin="0.60s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<rect x="20" y="48" width="440" height="14" rx="7" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+<circle cx="24" cy="88" r="4" fill="#c86bff"/>
+<text x="34" y="92" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">HTML</text>
+<rect x="130" y="81" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="81" width="0" height="8" rx="4" fill="#c86bff">
+<animate attributeName="width" from="0" to="110.2" begin="0.50s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="92" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">38%
+<animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.4s" fill="freeze"/></text>
+<circle cx="24" cy="113" r="4" fill="#3ce6c8"/>
+<text x="34" y="117" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">Python</text>
+<rect x="130" y="106" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="106" width="0" height="8" rx="4" fill="#3ce6c8">
+<animate attributeName="width" from="0" to="81.2" begin="0.65s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="117" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">28%
+<animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/></text>
+<circle cx="24" cy="138" r="4" fill="#8b2fd6"/>
+<text x="34" y="142" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">JavaScript</text>
+<rect x="130" y="131" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="131" width="0" height="8" rx="4" fill="#8b2fd6">
+<animate attributeName="width" from="0" to="40.6" begin="0.80s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="142" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">14%
+<animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.4s" fill="freeze"/></text>
+<circle cx="24" cy="163" r="4" fill="#6d28d9"/>
+<text x="34" y="167" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">CSS</text>
+<rect x="130" y="156" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="156" width="0" height="8" rx="4" fill="#6d28d9">
+<animate attributeName="width" from="0" to="29.0" begin="0.95s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="167" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">10%
+<animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.4s" fill="freeze"/></text>
+<circle cx="24" cy="188" r="4" fill="#ff8fe0"/>
+<text x="34" y="192" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">C++</text>
+<rect x="130" y="181" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="181" width="0" height="8" rx="4" fill="#ff8fe0">
+<animate attributeName="width" from="0" to="17.4" begin="1.10s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="192" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">6%
+<animate attributeName="opacity" from="0" to="1" begin="1.80s" dur="0.4s" fill="freeze"/></text>
+<circle cx="24" cy="213" r="4" fill="#ff2ecb"/>
+<text x="34" y="217" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#f4ecff">Makefile</text>
+<rect x="130" y="206" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="130" y="206" width="0" height="8" rx="4" fill="#ff2ecb">
+<animate attributeName="width" from="0" to="11.6" begin="1.25s" dur="1.0s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/></rect>
+<text x="460" y="217" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#b79ad1" text-anchor="end" opacity="0">4%
+<animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.4s" fill="freeze"/></text>
+</g>
+<rect x="1" y="1" width="478" height="248" rx="18" fill="none" stroke="rgba(255,140,235,0.28)" stroke-width="1.2"/>
+</svg>
